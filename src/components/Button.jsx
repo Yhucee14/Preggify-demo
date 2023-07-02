@@ -13,7 +13,7 @@ const Button = ({styles}) => {
      border-2
     border-white-500`}>
        <BsWhatsapp className={`mt-0.5` } size={18} /> 
-       <h5 className={`ml-2`}>Get started</h5> 
+       <h5 className={`ml-2`}>Chat Now</h5> 
     </button>
   )
 }

@@ -3,7 +3,7 @@ import {TopNavbar, MainNavbar} from './components'
 
 function App() {
   return (
-    <div className=" w-full overflow-hidden">
+    <div className=" w-full overflow-hidden ">
       <div>
         <div> <TopNavbar /> </div>
         <div> <MainNavbar /> </div>
