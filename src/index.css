@@ -18,15 +18,19 @@
   scroll-behavior: smooth;
 }
 
+.text-bold {
+  color: #1d8f49;
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #236348 0.89%,
+    #269c53 17.23%,
+    #34885f 42.04%,
+    #4eb46c 55.12%,
+    #191a19 71.54%,
+    #080808 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -1,5 +1,6 @@
 import './App.css';
-import {TopNavbar, MainNavbar} from './components'
+import {TopNavbar, MainNavbar, Body} from './components'
+import styles from './styles'
 
 function App() {
   return (
@@ -7,7 +8,12 @@ function App() {
       <div>
         <div> <TopNavbar /> </div>
         <div> <MainNavbar /> </div>
-        
+      </div>
+
+      <div >
+        <div className={`${styles.boxWidth}`}>
+          <Body />
+       </div>
       </div>
     
     </div>
