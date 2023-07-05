@@ -65,7 +65,8 @@ const MainNavbar = () => {
           `${toggle ? 'flex' : 'hidden'} 
           p-6 mt-14 bg-other absolute top-20 
           right-0 mx-4 my-2
-          min-w-[140px] rounded-xl sidebar`
+          min-w-[50%] min-h-[30%] rounded-xl sidebar
+          xs:mt-20`
         }>
 
           <ul className='list-none flex flex-col justify-end items-center flex-1'>

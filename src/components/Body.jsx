@@ -8,7 +8,7 @@ const Body = () => {
     ${styles.paddingY} ${styles.paddingX}`}>
 
       <div className={`flex-1 ${styles.flexStart} 
-      flex-col xl:px-0 sm:px-6 px-6 md:w-[50%]`}>
+      flex-col xl:px-0 sm:px-6 px-6 md:w-[65%]`}>
 
         <div className='flex flex-row items-center py-[6px]
         px-4 rounded-[10px] mb-2 ml-[-25px]'>
@@ -62,8 +62,9 @@ const Body = () => {
       </div>
 
       <div className={` ${styles.flexCenter} 
+      rounded-[12px]
       flex-row xx:mt-3 px-6 bg-white 
-      xx:w-[310px] md:w-[50%] xx:ml-2`}>
+      xx:w-[310px] md:w-[35%] xx:ml-2 xs:ml-6`}>
 
         <div className=' items-center py-[6px]
         px-4 rounded-[10px] mb-2'>
@@ -95,22 +96,33 @@ const Body = () => {
           <div className={` ${styles.blockCenter}`}>
       {services.map((service) => (
          <div key={service.id} className={`items-center py-[6px]
-          rounded-[10px] mb-1 w-[100%]`}>
+          rounded-[10px] mb-1 w-[100%] `}>
            <p className={`${styles.paragraph} `}>
-             <span
+             <button
                className={` 
-                bg-white
+               flex
+               bg-dimother
+               hover:bg-green-100
+               active:bg-green-100
+               focus:ring 
+               focus:ring-green-200
                font-poppins
                 text-black
+                font-semi-bold
+                text-[15px]
                 rounded-[22px]
                 border-2
-               border-green-500
+               border-gray-300
                py-1
                px-2
-              
+               xx:justify-center items-center flex-col w-[100%]
                `}
              >
-               {service.name}</span>
+              <div>{service.name}</div> 
+              <div>{service.price}</div>
+              <div className='xs:hidden xx:hidden'>icon</div>
+               
+               </button>
            </p>
          </div>
       ))}

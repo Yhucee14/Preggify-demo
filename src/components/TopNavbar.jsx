@@ -4,13 +4,16 @@ import Button from './Button'
 
 const TopNavbar = () => {
   return (
-    <nav className={` bg-other width-full 
+    <nav className={`xs:flex-col bg-other width-full 
     flex-1 navbar text-primary ${styles.paddingX}
      ${styles.flexCenter} ${styles.paddingY} `}>
-      <h4 className={`${styles.paddingX} xs:block hidden`}>
-        Not sure where to start? Chat with our health advisor
+      <h4 className={`${styles.paddingX} ${styles.flexCenter}
+      xs:justify-center items-center flex-col `}>
+        <div className='pb-1 xx:hidden'>Not sure where to start?</div> 
+        <div className='pb-2 xx:hidden'>Chat with our health advisor</div>
         </h4>
-      <Button />
+      <Button 
+/>
     </nav>
   ) 
 }
