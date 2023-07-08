@@ -3,10 +3,6 @@ require('ignore-styles')
 require('@babel/register')({
     ignore: [/(node_modules)/],
     presets: ["@babel/preset-env", "@babel/preset-react"],
-    plugins: [
-        // Other plugins...
-        '@babel/plugin-proposal-private-property-in-object',
-      ],
 })
 
 require("./server");
