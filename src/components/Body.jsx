@@ -5,7 +5,7 @@ import { services } from '../constants'
 const Body = () => {
   return (
     <section className={`flex md:flex-row flex-col bg-dimother
-    ${styles.paddingY} ${styles.paddingX}`}>
+    ${styles.paddingY} px-20`}>
 
       <div className={`flex-1 ${styles.flexStart} 
       flex-col xl:px-0 sm:px-6 px-6 md:w-[65%]`}>
@@ -63,8 +63,8 @@ const Body = () => {
 
       <div className={` ${styles.flexCenter} 
       rounded-[12px]
-      flex-row xx:mt-3 px-6 bg-white 
-      xx:w-[310px] md:w-[35%] xx:ml-2 xs:ml-6`}>
+      flex-row xx:mt-3 px-6 py-5 bg-white 
+      xx:w-[310px] md:w-[35%] h-[400px] pt-8 xx:ml-2 xs:ml-6`}>
 
         <div className=' items-center py-[6px]
         px-4 rounded-[10px] mb-2'>
@@ -126,6 +126,11 @@ const Body = () => {
            </p>
          </div>
       ))}
+
+<h4 className={`${styles.flexCenter} font-poppins font-semi-bold
+           text-dimBlue text-[10px] py-2`}>
+           All offers are for a limited time.
+</h4>
       </div>
         </div>
 
