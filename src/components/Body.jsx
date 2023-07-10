@@ -5,7 +5,7 @@ import { services } from '../constants'
 const Body = () => {
   return (
     <section className={`flex md:flex-row flex-col bg-dimother
-    ${styles.paddingY} px-20`}>
+    ${styles.paddingY} ${styles.paddingX}`}>
 
       <div className={`flex-1 ${styles.flexStart} 
       flex-col xl:px-0 sm:px-6 px-6 md:w-[65%]`}>
@@ -64,7 +64,7 @@ const Body = () => {
       <div className={` ${styles.flexCenter} 
       rounded-[12px]
       flex-row xx:mt-3 px-6 py-5 bg-white 
-      xx:w-[310px] md:w-[35%] h-[400px] pt-8 xx:ml-2 xs:ml-6`}>
+      xx:w-[310px] md:w-[35%] xx:ml-2 xs:ml-6`}>
 
         <div className=' items-center py-[6px]
         px-4 rounded-[10px] mb-2'>

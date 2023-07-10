@@ -3,6 +3,7 @@ import React from 'react';
 import {TopNavbar, MainNavbar, Body} from './components'
 import styles from './styles'
 import Packages from './components/Packages';
+import About from './components/About';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div className={`${styles.boxWidth}`}>
         <Body />
         <Packages />
+        <About />
      </div>
     </div>
   

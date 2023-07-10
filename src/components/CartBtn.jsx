@@ -17,7 +17,7 @@ const CartBtn = () => {
      border-2
      mb-2
     border-white-500
-    py-1.5`}>
+    py-1.5 sm:px-3 w-[100%] ` }>
       <h5>Add to Cart</h5>
     </button>
   )

@@ -38,3 +38,10 @@ export const navLinks = [
       details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus facilis esse aperiam libero saepe deserunt."
     },
   ];
+
+  export const aboutInfo = [
+    {
+      id: "info-1",
+      info: "At Preggify, our goal is to promote all-round career fufillment for women in their reproductive years. We leverage technology and offer a one-stop platform to connect career women in their reproductive years to maternal care that is convenient, affordable and accessible. We aim to see young women thrive in their careers during their prime years while raising their families...."
+    }
+  ]

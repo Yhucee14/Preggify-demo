@@ -5,7 +5,7 @@ import CartBtn from './CartBtn'
 
 const Packages = () => {
     return (
-        <div>
+        <div className='pb-5'>
             <h1 className='text-[25px] py-3 font-bold text-dimBlue flex justify-center items-center'>
                 Our Packages
             </h1>
@@ -26,7 +26,7 @@ const Packages = () => {
                         </p>
                         <hr />
 
-                        <div className='flex flex-row justify-center space-x-10 '>
+                        <div className='flex flex-row justify-center sm:space-x-2 md:space-x-10  '>
                             <div className='mr-2 mt-7'><h1>{service.price}</h1></div>
                             <div className='mt-5'><CartBtn /></div>
                         </div>

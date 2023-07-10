@@ -4,12 +4,13 @@ import logo from '../assets/logo.png'
 import { BsCart } from "react-icons/bs";
 import open from '../assets/open.png'
 import closemenu from '../assets/closemenu.png'
+import styles from '../styles';
 
 const MainNavbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className='w-full flex py-4 px-8 justify-between
+    <nav className='w-full flex py-4 px-5 justify-between
     items-center navbar'>
 
       <img src={logo} alt='Preggify' className='w-[130px] ' />
@@ -28,28 +29,12 @@ const MainNavbar = () => {
       </ul>
 
       <div className='sm:flex hidden pr-4'>
-        <button type='button' className={`px-3 
-    flex
-    py-1.5
-     bg-white
-    font-poppins
-     text-black
-     rounded-[22px]
-     border-2
-    border-green-500
-    mr-3`}>Login</button>
+        <button type='button' className={`${styles.navBtn} pt-1.5 mr-5`}>
+          Login</button>
 
-        <button type='button' className={`px-3 
-    flex
-    py-1.5
-     bg-other
-    font-poppins
-     text-white
-     rounded-[22px]
-     border-2
-    border-white-500`}>
+        <button type='button' className={`${styles.Button}`}>
           <BsCart className={`mt-0.5`} size={18} />
-          <h5 className={`ml-2`}>My Cart</h5>
+          <h5 className={`ml-2 sm:w-[100%] h-[100%]`}>My Cart</h5>
         </button>
       </div>
 
