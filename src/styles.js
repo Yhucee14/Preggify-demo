@@ -19,7 +19,7 @@ const styles = {
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
 
-    Button: "px-2 flex hover:bg-dimBlue hover:text-white hover:border-2 hover:border-black-500 active:bg-black-500 active:text-black  focus:ring focus:ring-black-400 bg-other font-poppins text-white rounded-[22px] border-2 mb-2 border-white-500 py-1.5",
+    Button: "px-2 flex flex-row hover:bg-dimBlue hover:text-white hover:border-2 hover:border-black-500 active:bg-black-500 active:text-black  focus:ring focus:ring-black-400 bg-gradient-to-r from-green-900 via-green-600 to-green-400 font-poppins text-white rounded-[22px] border-2 mb-2 border-white-500 py-1.5",
     navBtn: "px-3 flex hover:bg-dimBlue hover:text-white hover:border-2 hover:border-black-500 active:bg-black-500 active:text-black  focus:ring focus:ring-black-400 bg-white font-poppins text-black rounded-[22px] border-2 mb-2 border-lightGreen-500 py-2`"
   };
   

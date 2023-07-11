@@ -10,7 +10,7 @@ const CartBtn = () => {
     active:bg-lightGreen-100 active:text-black 
     focus:ring 
     focus:ring-black-400
-     bg-other
+    bg-gradient-to-r from-green-900 via-green-600 to-green-400
     font-poppins
      text-white
      rounded-[22px]

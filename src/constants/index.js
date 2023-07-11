@@ -7,6 +7,7 @@ import instagram from "../assets/instagram.svg"
 import twitter from "../assets/twitter.svg"
 import facebook from "../assets/facebook.svg"
 import linkedin from "../assets/linkedin.svg"
+import arrowR from "../assets/arrowR.png"
 
 export const navLinks = [
     {
@@ -32,18 +33,21 @@ export const navLinks = [
       id: "service-1",
       name: "Preconception Care",
       price: "N20000",
+      icon: arrowR,
       details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus facilis esse aperiam libero saepe deserunt."
     },
     {
       id: "service-2",
       name: "Digital/Mobile Antenatal",
       price: "N10000",
+      icon: arrowR,
       details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus facilis esse aperiam libero saepe deserunt."
     },
     {
       id: "service-3",
       name: "Postpartum Service",
       price: "N15000",
+      icon: arrowR,
       details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus facilis esse aperiam libero saepe deserunt."
     },
   ];

@@ -32,7 +32,7 @@ const MainNavbar = () => {
         <button type='button' className={`${styles.navBtn} pt-1.5 mr-5`}>
           Login</button>
 
-        <button type='button' className={`${styles.Button}`}>
+        <button type='button' className={`${styles.Button} w-[110px]`}>
           <BsCart className={`mt-0.5`} size={18} />
           <h5 className={`ml-2 sm:w-[100%] h-[100%]`}>My Cart</h5>
         </button>
@@ -48,10 +48,10 @@ const MainNavbar = () => {
 
         <div className={
           `${toggle ? 'flex' : 'hidden'} 
-          p-6 mt-14 bg-other absolute top-20 
-          right-0 mx-4 my-2
+          p-6  bg-gradient-to-r from-green-900 via-green-600 to-green-400 absolute top-20 
+          right-0 mt-28 my-2 mr-3
           min-w-[50%] min-h-[30%] rounded-xl sidebar
-          xs:mt-20`
+          xx:mt-30`
         }>
 
           <ul className='list-none flex flex-col justify-end items-center flex-1'>
