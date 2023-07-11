@@ -5,6 +5,7 @@ import styles from './styles'
 import Packages from './components/Packages';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
+import OurTeam from './components/OurTeam';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Packages />
         <About />
         <Testimonials />
+        <OurTeam />
      </div>
     </div>
   

@@ -10,6 +10,7 @@ const styles = {
     blockNormal: "justify-normal items-center",
     sectionGrid: "grid grid-cols-2 gap-4 xx:grid-cols-1 gap-4  sm:grid-cols-2 gap-4 ",
     sectionGridThree: "grid grid-cols-3 gap-4 xx:grid-cols-1 gap-4  sm:grid-cols-3 gap-4 ",
+    sectionGridOne: "grid grid-cols-2 gap-0 xx:grid-cols-1 gap-2  sm:grid-cols-2 gap-0 ss:grid-cols-1 gap-2 ",
   
     paddingX: "sm:px-3 px-3",
     paddingY: "sm:py-3 py-5",

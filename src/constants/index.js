@@ -1,6 +1,12 @@
 import smile  from '../assets/smile.png'
 import people01 from "../assets/people01.png"
 import people02 from "../assets/people02.png"
+import temi from "../assets/temi.jpg"
+import ify from "../assets/ify.jpg"
+import instagram from "../assets/instagram.svg"
+import twitter from "../assets/twitter.svg"
+import facebook from "../assets/facebook.svg"
+import linkedin from "../assets/linkedin.svg"
 
 export const navLinks = [
     {
@@ -71,5 +77,45 @@ export const navLinks = [
       role: "User",
       image: people02,
       words: "Preggify Online Antenatal class has been educating, empowering and a wonderful support system. The classes are structured to teach in very simple terms."
+    },
+  ];
+
+  export const teamInfo = [
+    {
+      id: "info",
+      name: "Dr Ifunanya Igweze",
+      role: "Founder",
+      image: ify,
+      desc: "Dr Ifunanya Igweze is a medical doctor and author of two books focused on maternal and child health. With over 5 years of experience, she has assessed reproductive health..."
+    },
+    {
+      id: "info",
+      name: "Daniel Temitayo",
+      role: "C.T.O",
+      image: temi,
+      desc: "Daniel Temitayo has developed solutions and also contributed to software architechture and design, ensuring scalability, maintainability and alignment with business requirements..."
+    },
+  ];
+
+  export const socialMedia = [
+    {
+      id: "social-media-1",
+      icon: instagram,
+      link: "https://www.instagram.com/",
+    },
+    {
+      id: "social-media-2",
+      icon: facebook,
+      link: "https://www.facebook.com/",
+    },
+    {
+      id: "social-media-3",
+      icon: twitter,
+      link: "https://www.twitter.com/",
+    },
+    {
+      id: "social-media-4",
+      icon: linkedin,
+      link: "https://www.linkedin.com/",
     },
   ];

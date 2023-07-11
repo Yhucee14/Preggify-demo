@@ -6,7 +6,7 @@ import quotes from '../assets/quotes.png'
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className='pb-3'>
         <h1 className='text-[25px] py-3 font-bold text-dimBlue flex justify-center items-center'>
                 Testimonials
             </h1>
