@@ -4,6 +4,7 @@ import {TopNavbar, MainNavbar, Body} from './components'
 import styles from './styles'
 import Packages from './components/Packages';
 import About from './components/About';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Body />
         <Packages />
         <About />
+        <Testimonials />
      </div>
     </div>
   

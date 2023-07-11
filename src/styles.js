@@ -1,7 +1,7 @@
 const styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
   
-    heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    heading2: "font-poppins font-semibold xs:text-[35px] text-4xl bg-gradient-to-r from-green-900 via-green-600 to-green-400 text-transparent bg-clip-text xs:leading-[50.8px] ",
     paragraph: "font-poppins font-normal text-black text-[16.5px] leading-[30.8px]",
   
     flexCenter: "flex justify-center items-center",
@@ -9,6 +9,7 @@ const styles = {
     blockCenter: "justify-center items-center",
     blockNormal: "justify-normal items-center",
     sectionGrid: "grid grid-cols-2 gap-4 xx:grid-cols-1 gap-4  sm:grid-cols-2 gap-4 ",
+    sectionGridThree: "grid grid-cols-3 gap-4 xx:grid-cols-1 gap-4  sm:grid-cols-3 gap-4 ",
   
     paddingX: "sm:px-3 px-3",
     paddingY: "sm:py-3 py-5",
@@ -26,9 +27,9 @@ const styles = {
     sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
   
     sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
-    sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
+    sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-5 relative`,
   
-    sectionInfo: `flex-1 ${styles.flexStart} flex-col leading-[30.8px]`,
+    sectionInfo: `flex-1 ${styles.flexStart} flex-col leading-[30.8px] pt-2`,
   };
   
   export default styles;

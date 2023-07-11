@@ -24,7 +24,7 @@ const Packages = () => {
                         <p className={`flex justify-center items-center mt-2 mb-2 ml-3`}>
                             {service.details}
                         </p>
-                        <hr />
+                        <hr /> 
 
                         <div className='flex flex-row justify-center sm:space-x-2 md:space-x-10  '>
                             <div className='mr-2 mt-7'><h1>{service.price}</h1></div>

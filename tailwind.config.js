@@ -11,8 +11,9 @@ module.exports = {
         dimBlue: "#193e40",
         dimother: "#f0f5f5",
         lightGreen: "#d5f5d6",
-        Green: "",
+        greenGradient: "bg-gradient-to-r from-cyan-500 to-blue-500",
       },
+
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
