@@ -4,11 +4,10 @@ import { services } from '../constants'
 
 const Body = () => {
   return (
-    <section className={`flex md:flex-row flex-col bg-dimother
-    ${styles.paddingY} ${styles.paddingX} ${styles.sectionGrid}`}>
+    <section className={`bg-dimother pl-10 ${styles.sectionGrid}`}>
 
       <div className={` ${styles.flexStart} 
-      flex-col xl:px-0 sm:px-6 px-6 md:w-[65%]`}>
+      flex-col xl:px-0 sm:px-6 px-6  `}>
 
         <div className='flex flex-row items-center py-[6px]
         px-4 rounded-[10px] mb-2 ml-[-25px]'>
@@ -61,9 +60,9 @@ const Body = () => {
       </div>
 
       <div className={` ${styles.flexCenter} 
-      rounded-[12px]  
+      rounded-[12px]
       flex-row xx:mt-3 px-6 py-5 bg-dimother border-2 border-black-500
-      xx:w-[310px] md:w-[35%] h-[90%] xx:ml-2 xs:ml-6`}>
+      xx:w-[310px]  h-[90%] xx:ml-2`}>
 
         <div className=' items-center py-[6px]
         px-4 rounded-[10px] mb-2 '>
@@ -139,11 +138,6 @@ const Body = () => {
             </h4>
           </div>
         </div>
-
-
-
-
-
 
       </div>
 
