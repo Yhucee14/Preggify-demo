@@ -7,7 +7,7 @@ const Body = () => {
     <section className={`flex md:flex-row flex-col bg-dimother
     ${styles.paddingY} ${styles.paddingX} ${styles.sectionGrid}`}>
 
-      <div className={`flex-1 ${styles.flexStart} 
+      <div className={` ${styles.flexStart} 
       flex-col xl:px-0 sm:px-6 px-6 md:w-[65%]`}>
 
         <div className='flex flex-row items-center py-[6px]
@@ -32,7 +32,7 @@ const Body = () => {
         </div>
 
         <div className='flex flex-col justify-between items-start w-full'>
-          <h1 className='justify-center text-[20px] font-bold text-dimBlue pb-1'>Welcome To Preggify</h1> 
+          <h1 className='justify-center text-[20px] font-bold text-dimBlue pb-1 text-center'>Welcome To Preggify</h1> 
           <h1 className={`${styles.heading2} xx:w-full text-[24px] md:w-[70%]`}>
             Convenience And Ease
             At Your Finger Tips.

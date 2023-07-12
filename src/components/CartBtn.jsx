@@ -4,10 +4,11 @@ const CartBtn = () => {
   return (
     <button type='button' className={`px-3 
     flex
-    hover:bg-dimBlue hover:text-white
+    hover:bg-white 
+    hover:text-black
     hover:border-2
     hover:border-black-500
-    active:bg-lightGreen-100 active:text-black 
+    active:bg-black-100 active:text-white
     focus:ring 
     focus:ring-black-400
     bg-gradient-to-r from-green-900 via-green-600 to-green-400

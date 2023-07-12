@@ -10,6 +10,7 @@ const Testimonials = () => {
         <h1 className='text-[25px] py-3 font-bold text-dimBlue flex justify-center items-center'>
                 Testimonials
             </h1>
+        <p className='text-[15px] xx:px-5 py-3 sm:px-2 py-3 font-bold text-dimBlue flex justify-center items-center text-center'>At Preggify, our goal is to promote all-round career fulfilment for women in their reproductive years.</p>
 
         <div className={`${styles.sectionGridThree} px-3 py-3 `}>
     {clientInfo.map((client) => (

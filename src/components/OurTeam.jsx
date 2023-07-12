@@ -5,7 +5,7 @@ import { teamInfo, socialMedia } from '../constants'
 const OurTeam = () => {
     return (
         <div className='h-[100%] xx:px-3 py-4 sm:py-12 px-12 border-2 border-black-200'>
-            <h1 className='text-[25px] py-3 font-bold text-dimBlue flex justify-center items-center'>
+            <h1 className='text-[25px] py-5 font-bold text-dimBlue flex justify-center items-center'>
                 Our Team
             </h1>
             <section className={`${styles.sectionGrid}  `}>

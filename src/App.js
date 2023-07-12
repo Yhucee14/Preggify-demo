@@ -6,6 +6,7 @@ import Packages from './components/Packages';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
 import OurTeam from './components/OurTeam';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <About />
         <Testimonials />
         <OurTeam />
+        <Footer />
      </div>
     </div>
   

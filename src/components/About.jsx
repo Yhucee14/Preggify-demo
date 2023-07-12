@@ -17,7 +17,7 @@ const About = () => {
                 <div className={`${layout.sectionInfo} `}>
                     {aboutInfo.map((info) => (
                         <>
-                        <h1 className={`${styles.heading2} xx:w-full md:w-[70%]`}>
+                        <h1 className={`${styles.heading2}  xx:w-full  md:w-[70%]`}>
                             Preggify is here to 
                             bring you ease at 
                             your fingertips.
