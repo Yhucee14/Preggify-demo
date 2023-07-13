@@ -4,9 +4,10 @@ import { services } from '../constants'
 
 const Body = () => {
   return (
-    <section className={`bg-dimother pl-10 ${styles.sectionGrid}`}>
+    <section className={`bg-dimother pl-2 py-2
+     ${styles.sectionGrid}`}>
 
-      <div className={` ${styles.flexStart} 
+  <div className={` ${styles.flexStart} 
       flex-col xl:px-0 sm:px-6 px-6  `}>
 
         <div className='flex flex-row items-center py-[6px]
