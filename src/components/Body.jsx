@@ -81,7 +81,7 @@ const Body = () => {
               px-2
               `}
             >
-              Home sample collection</span>
+              Home sample collection.</span>
 
           </p>
 
