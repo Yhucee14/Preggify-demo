@@ -8,6 +8,9 @@ import twitter from "../assets/twitter.svg"
 import facebook from "../assets/facebook.svg"
 import linkedin from "../assets/linkedin.svg"
 import arrowR from "../assets/arrowR.png"
+import pregone from '../assets/pregone.png'
+import pregtwo from '../assets/pregtwo.png'
+import pregthree from '../assets/pregthree.jpg'
 
 export const navLinks = [
     {
@@ -34,6 +37,7 @@ export const navLinks = [
       name: "Preconception Care",
       price: "N20000",
       icon: arrowR,
+      img: pregone,
       details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus facilis esse aperiam libero saepe deserunt."
     },
     {
@@ -41,6 +45,7 @@ export const navLinks = [
       name: "Digital/Mobile Antenatal",
       price: "N10000",
       icon: arrowR,
+      img: pregtwo,
       details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus facilis esse aperiam libero saepe deserunt."
     },
     {
@@ -48,6 +53,7 @@ export const navLinks = [
       name: "Postpartum Service",
       price: "N15000",
       icon: arrowR,
+      img: pregthree,
       details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus facilis esse aperiam libero saepe deserunt."
     },
   ];

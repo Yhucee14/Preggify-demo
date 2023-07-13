@@ -17,7 +17,7 @@ const MainNavbar = () => {
 
       <ul className='list-none sm:flex hidden justify-center items-center flex-1'>
         {navLinks.map((nav, index) => (
-          <li key={nav.id} className={`font-poppins 
+          <li key={nav.id} className={`font-quicksand 
           font-normal 
           cursor-pointer text-[20px]
             text-black mr-5 px-2`}>
@@ -56,7 +56,7 @@ const MainNavbar = () => {
 
           <ul className='list-none flex flex-col justify-end items-center flex-1'>
             {navLinks.map((nav, index) => (
-              <li key={nav.id} className={`font-poppins font-normal 
+              <li key={nav.id} className={`font-quicksand font-normal 
           cursor-pointer text-[16px]
            ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'}
             text-white`}>

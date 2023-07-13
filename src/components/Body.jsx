@@ -7,7 +7,7 @@ const Body = () => {
     <section className={`bg-dimother pl-2 py-2
      ${styles.sectionGrid}`}>
 
-  <div className={` ${styles.flexStart} 
+      <div className={` ${styles.flexStart} 
       flex-col xl:px-0 sm:px-6 px-6  `}>
 
         <div className='flex flex-row items-center py-[6px]
@@ -18,7 +18,7 @@ const Body = () => {
               flex
               items-center
                bg-white
-              font-poppins
+              font-quicksand
                text-black
                rounded-[22px]
                border-2
@@ -32,7 +32,7 @@ const Body = () => {
         </div>
 
         <div className='flex flex-col justify-between items-start w-full'>
-          <h1 className='justify-center text-[20px] font-bold text-dimBlue pb-1 text-center'>Welcome To Preggify</h1> 
+          <h1 className='justify-center text-[20px] font-quicksand font-bold text-dimBlue pb-1 text-center'>Welcome To Preggify</h1>
           <h1 className={`${styles.heading2} xx:w-full text-[24px] md:w-[70%]`}>
             Convenience And Ease
             At Your Finger Tips.
@@ -42,15 +42,15 @@ const Body = () => {
 
 
         <p className={`${styles.paragraph}  max-w-[420px] mt-2 mb-2`}>
-        Preggify is a health-tech startup offering flexible tech-driven solution to career women who are hard-pressed to juggle
-         motherhood and career through our various services.
+          Preggify is a health-tech startup offering flexible tech-driven solution to career women who are hard-pressed to juggle
+          motherhood and career through our various services.
         </p>
 
         <button type='button' className={`px-3 
     flex
     py-1.5
     bg-gradient-to-r from-green-900 via-green-600 to-green-400
-    font-poppins
+    font-quicksand
      text-white
      rounded-[22px]
      border-2 
@@ -63,7 +63,7 @@ const Body = () => {
       <div className={` ${styles.flexCenter} 
       rounded-[12px]
       flex-row xx:mt-3 px-6 py-5 bg-dimother border-2 border-black-500
-      xx:w-[310px]  h-[90%] xx:ml-2`}>
+      xx:w-[310px]  h-[90%] xx:ml-4 md:ml-0`}>
 
         <div className=' items-center py-[6px]
         px-4 rounded-[10px] mb-2 '>
@@ -73,7 +73,7 @@ const Body = () => {
               flex
               items-center
                bg-lightGreen
-              font-poppins
+              font-quicksand
                text-bold
                rounded-[22px]
                text-[15px]
@@ -86,7 +86,7 @@ const Body = () => {
 
           </p>
 
-          <h1 className='flex-1 font-poppins font-semi-bold
+          <h1 className='flex-1 font-quicksand font-semi-bold ml-4
            text-dimBlue text-[13.5px] py-2 justify-center items-center
           '>
             Choose A Package that suits you
@@ -105,7 +105,7 @@ const Body = () => {
                active:bg-green-100
                focus:ring 
                focus:ring-green-200
-               font-poppins
+               font-quicksand
                 text-black
                 font-semi-bold
                 text-[15px]
@@ -117,15 +117,20 @@ const Body = () => {
                `}
                   >
 
-                    
-                      <h6 className='justify-center items-center text-bold py-2'>{service.name}</h6>
-                  
-                     <div className='flex flex-row space-x-24'>
-                      <div className='justify-items-start text-black text-semibold'>{service.price}</div>
-                     <div className=' ml-4'>
-                      <img src={service.icon} alt='img' className='w-[21px] mt-1 h-[21px] bg-black'/>
-                     </div>
-                      
+
+                    <div className='flex flex-row space-x-2 py-2 px-1'>
+                    <img src={service.img} alt='img' className='w-[21px] mt-1 h-[21px] bg-black' />
+                      <div className=' font-semibold'>
+                        {service.name}
+                      </div>
+                      </div>
+
+                      <div className='flex flex-row space-x-24'>
+                        <div className='justify-items-start text-black text-semibold'>{service.price}</div>
+                        <div className=' ml-4'>
+                          <img src={service.icon} alt='img' className='w-[15px] mt-1 h-[15px] bg-black' />
+                        </div>
+
                       </div>
 
                   </button>
@@ -133,7 +138,7 @@ const Body = () => {
               </div>
             ))}
 
-            <h4 className={`${styles.flexCenter} font-poppins font-semi-bold
+            <h4 className={`${styles.flexCenter} font-quicksand font-semi-bold
            text-dimBlue text-[10px] py-2`}>
               All offers are for a limited time.
             </h4>

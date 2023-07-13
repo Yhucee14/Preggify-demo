@@ -11,7 +11,7 @@ const Footer = () => {
       <ul className='list-none sm:flex hidden 
         justify-center items-center flex-1'>
         {navLinks.map((nav, index) => (
-          <li key={nav.id} className={`font-poppins 
+          <li key={nav.id} className={`font-quicksand 
           font-semibold
           cursor-pointer text-[18px]
             text-white mr-2 px-2`}>

@@ -13,7 +13,7 @@ const Button = ({ styles }) => {
     focus:ring-black-400
     py-1.5
      bg-other
-    font-poppins
+    font-quicksand
      text-white
      rounded-[22px]
      border-2

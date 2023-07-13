@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -79,9 +79,10 @@
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
 }
 
-.box-shadow {
-  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+.shadow-right {
+  box-shadow: 4px 0 8px -2px rgb(8, 32, 3);
 }
+
 
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;

@@ -14,7 +14,7 @@ const Testimonials = () => {
 
         <div className={`${styles.sectionGridThree} px-3 py-3 `}>
     {clientInfo.map((client) => (
-      <div key={client} className='rounded-[20px] bg-dimother px-3 py-3 border-2 mb-2 border-dimBlue-500 shadow-lg shadow-green-400/50'>
+      <div key={client} className='rounded-[20px] bg-dimother px-3 py-3 border-2 mb-2 border-dimBlue-500 shadow-right'>
          <img src={quotes} alt="double_quotes" className="w-[42.6px] h-[27.6px] object-contain ml-[40%]" />
         <p className={`${styles.flexCenter} ${styles.paragraph} pb-2`}>{client.words}</p>
         <hr />

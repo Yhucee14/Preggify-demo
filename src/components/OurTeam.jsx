@@ -16,7 +16,7 @@ const OurTeam = () => {
                         <div className='flex flex-col'>
                             <h1 className='text-[17px] py-1 font-bold text-dimBlue flex px-3'>{info.name}</h1>
                             <h6 className='font-semibold px-3'>{info.role}</h6>
-                            <p className={`font-poppins font-normal leading-[30.8px] text-black text-[14.5px] px-3 py-1`}>{info.desc}</p>
+                            <p className={`font-quicksand font-normal leading-[30.8px] text-black text-[14.5px] px-3 py-1`}>{info.desc}</p>
                             <hr />
 
                             <div className='flex flex-row justify-center items-center py-4'>
